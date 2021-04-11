@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/goli/Desktop/test/test-models/test-models.csproj",
+      "projectUniqueName": "/home/goli/Desktop/Grpc_Demo/test-models/test-models.csproj",
       "projectName": "test-models",
-      "projectPath": "/home/goli/Desktop/test/test-models/test-models.csproj",
+      "projectPath": "/home/goli/Desktop/Grpc_Demo/test-models/test-models.csproj",
       "packagesPath": "/home/goli/.nuget/packages/",
-      "outputPath": "/home/goli/Desktop/test/test-models/obj/",
+      "outputPath": "/home/goli/Desktop/Grpc_Demo/test-models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/goli/.nuget/NuGet/NuGet.Config"

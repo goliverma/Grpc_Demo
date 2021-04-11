@@ -10,3 +10,15 @@
 /home/goli/Desktop/test/test-models/obj/Debug/net5.0/test-models.dll
 /home/goli/Desktop/test/test-models/obj/Debug/net5.0/ref/test-models.dll
 /home/goli/Desktop/test/test-models/obj/Debug/net5.0/test-models.pdb
+/home/goli/Desktop/Grpc_Demo/test-models/bin/Debug/net5.0/test-models.deps.json
+/home/goli/Desktop/Grpc_Demo/test-models/bin/Debug/net5.0/test-models.dll
+/home/goli/Desktop/Grpc_Demo/test-models/bin/Debug/net5.0/ref/test-models.dll
+/home/goli/Desktop/Grpc_Demo/test-models/bin/Debug/net5.0/test-models.pdb
+/home/goli/Desktop/Grpc_Demo/test-models/obj/Debug/net5.0/test-models.csprojAssemblyReference.cache
+/home/goli/Desktop/Grpc_Demo/test-models/obj/Debug/net5.0/test-models.GeneratedMSBuildEditorConfig.editorconfig
+/home/goli/Desktop/Grpc_Demo/test-models/obj/Debug/net5.0/test-models.AssemblyInfoInputs.cache
+/home/goli/Desktop/Grpc_Demo/test-models/obj/Debug/net5.0/test-models.AssemblyInfo.cs
+/home/goli/Desktop/Grpc_Demo/test-models/obj/Debug/net5.0/test-models.csproj.CoreCompileInputs.cache
+/home/goli/Desktop/Grpc_Demo/test-models/obj/Debug/net5.0/test-models.dll
+/home/goli/Desktop/Grpc_Demo/test-models/obj/Debug/net5.0/ref/test-models.dll
+/home/goli/Desktop/Grpc_Demo/test-models/obj/Debug/net5.0/test-models.pdb

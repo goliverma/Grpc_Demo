@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "URBYr10cxDxHKYNF+k3icq8JNayili8wRe1vpmc6BPTF6oMqlerg93NbPfNaBsZYkuiy5UdTYCDHGFQKVyKUuA==",
+  "dgSpecHash": "/wIpQ/tWR0s1CepRtODaOuKsmQ1CQhwrrd+YN5R0UpSBXlj4nCjHCLsPzwj4zChbgN0xqbxantG9G5H00vmsfQ==",
   "success": true,
-  "projectFilePath": "/home/goli/Desktop/test/test-models/test-models.csproj",
+  "projectFilePath": "/home/goli/Desktop/Grpc_Demo/test-models/test-models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

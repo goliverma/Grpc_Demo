@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PYTOBqLRAoUFv9ts1P44a/i1yHD+3IgnMU5Z0fxBnJbuvrXF76EDnATqWEjbIrH9rUkEhQ5GaZd0hL6PcM6XmQ==",
+  "dgSpecHash": "cKo6eg0CkiEaKiDTcKGIVZbuBJMO8+sx3HLBf+Ped/tYBNNA9BfGs0t/iHQ3b7w+7PlRwmRHi1mq2cBgsQtDrw==",
   "success": true,
-  "projectFilePath": "/home/goli/Desktop/test/test-grpc/test-grpc.csproj",
+  "projectFilePath": "/home/goli/Desktop/Grpc_Demo/test-grpc/test-grpc.csproj",
   "expectedPackageFiles": [
     "/home/goli/.nuget/packages/google.protobuf/3.14.0/google.protobuf.3.14.0.nupkg.sha512",
     "/home/goli/.nuget/packages/grpc.aspnetcore/2.34.0/grpc.aspnetcore.2.34.0.nupkg.sha512",

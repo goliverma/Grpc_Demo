@@ -1729,11 +1729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/goli/Desktop/test/test-grpc/test-grpc.csproj",
+      "projectUniqueName": "/home/goli/Desktop/Grpc_Demo/test-grpc/test-grpc.csproj",
       "projectName": "test-grpc",
-      "projectPath": "/home/goli/Desktop/test/test-grpc/test-grpc.csproj",
+      "projectPath": "/home/goli/Desktop/Grpc_Demo/test-grpc/test-grpc.csproj",
       "packagesPath": "/home/goli/.nuget/packages/",
-      "outputPath": "/home/goli/Desktop/test/test-grpc/obj/",
+      "outputPath": "/home/goli/Desktop/Grpc_Demo/test-grpc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/goli/.nuget/NuGet/NuGet.Config"
@@ -1748,8 +1748,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/goli/Desktop/test/test-models/test-models.csproj": {
-              "projectPath": "/home/goli/Desktop/test/test-models/test-models.csproj"
+            "/home/goli/Desktop/Grpc_Demo/test-models/test-models.csproj": {
+              "projectPath": "/home/goli/Desktop/Grpc_Demo/test-models/test-models.csproj"
             }
           }
         }
