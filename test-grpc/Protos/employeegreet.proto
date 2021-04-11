@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "test_grpc";
+import "google/protobuf/empty.proto";
+
+package employeegreet;
+
+service EmployeeGreeter{
+    rpc getemploye (responseemp) returns (replyemp);
+    rpc getemployes (google.protobuf.Empty) returns (replyemps);
+}
+
+message responseemp{
+    int32 employeeId = 1;
+}
+
+message replyemp{
+    int32 employeeId = 1;
+    string firstName = 2;
+    string lastName = 3;
+    string email = 4;
+    string address = 5;
+}
+message replyemps{
+    repeated replyemp replyempss= 1;
+}

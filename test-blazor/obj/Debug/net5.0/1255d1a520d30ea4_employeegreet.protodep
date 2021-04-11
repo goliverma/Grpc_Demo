@@ -1,0 +1,3 @@
+obj/Debug/net5.0/Protos/Employeegreet.cs \
+obj/Debug/net5.0/Protos/EmployeegreetGrpc.cs: /home/goli/.nuget/packages/grpc.tools/2.36.4/build/native/include/google/protobuf/empty.proto\
+ Protos/employeegreet.proto

@@ -1,0 +1,224 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/goli/Desktop/test/test-exe/test-exe.csproj": {}
+  },
+  "projects": {
+    "/home/goli/Desktop/test/test-exe/test-exe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/goli/Desktop/test/test-exe/test-exe.csproj",
+        "projectName": "test-exe",
+        "projectPath": "/home/goli/Desktop/test/test-exe/test-exe.csproj",
+        "packagesPath": "/home/goli/.nuget/packages/",
+        "outputPath": "/home/goli/Desktop/test/test-exe/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/goli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/goli/Desktop/test/test-grpc/test-grpc.csproj": {
+                "projectPath": "/home/goli/Desktop/test/test-grpc/test-grpc.csproj"
+              },
+              "/home/goli/Desktop/test/test-models/test-models.csproj": {
+                "projectPath": "/home/goli/Desktop/test/test-models/test-models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.15.7, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.36.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.36.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/goli/Desktop/test/test-grpc/test-grpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/goli/Desktop/test/test-grpc/test-grpc.csproj",
+        "projectName": "test-grpc",
+        "projectPath": "/home/goli/Desktop/test/test-grpc/test-grpc.csproj",
+        "packagesPath": "/home/goli/.nuget/packages/",
+        "outputPath": "/home/goli/Desktop/test/test-grpc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/goli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/goli/Desktop/test/test-models/test-models.csproj": {
+                "projectPath": "/home/goli/Desktop/test/test-models/test-models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.34.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.36.4, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/goli/Desktop/test/test-models/test-models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/goli/Desktop/test/test-models/test-models.csproj",
+        "projectName": "test-models",
+        "projectPath": "/home/goli/Desktop/test/test-models/test-models.csproj",
+        "packagesPath": "/home/goli/.nuget/packages/",
+        "outputPath": "/home/goli/Desktop/test/test-models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/goli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
