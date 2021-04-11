@@ -9,7 +9,7 @@ namespace test_grpc.Data.Repository
         Task<Employee> GetEmployee(int id);
         Task<IEnumerable<Employee>> GetEmployees();
         Task PostEmployee(Employee employee);
-        Task UpdateEmployee(Employee changeemployee);
+        Task<Employee> UpdateEmployee(Employee changeemployee);
         Task DeleteEmployee(int id);
     }
 }

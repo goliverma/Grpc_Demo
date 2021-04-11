@@ -38,7 +38,7 @@ namespace test_grpc.Services
             }
             return await Task.FromResult(emp);
         }
-        public override async Task<Empty> updateemploye(replyemp emp, ServerCallContext context)
+        public override async Task<replyemp> updateemploye(replyemp emp, ServerCallContext context)
         {
             var data = new Employee{
                 EmployeeId = emp.EmployeeId,
@@ -47,8 +47,14 @@ namespace test_grpc.Services
                 Email = emp.Email,
                 Address = emp.Address
             };
-            await con.UpdateEmployee(data);
-            return null;
+            var data1 = await con.UpdateEmployee(data);
+            return await Task.FromResult(new replyemp{
+                EmployeeId = data1.EmployeeId,
+                FirstName = data1.FirstName,
+                LastName = data1.LastName,
+                Email = data1.Email,
+                Address = data1.Address
+            });
         }
     }
 }
