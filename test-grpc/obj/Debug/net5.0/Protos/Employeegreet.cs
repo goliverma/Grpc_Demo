@@ -29,11 +29,13 @@ namespace test_grpc {
             "CmVtcGxveWVlSWQYASABKAUiYwoIcmVwbHllbXASEgoKZW1wbG95ZWVJZBgB",
             "IAEoBRIRCglmaXJzdE5hbWUYAiABKAkSEAoIbGFzdE5hbWUYAyABKAkSDQoF",
             "ZW1haWwYBCABKAkSDwoHYWRkcmVzcxgFIAEoCSI4CglyZXBseWVtcHMSKwoK",
-            "cmVwbHllbXBzcxgBIAMoCzIXLmVtcGxveWVlZ3JlZXQucmVwbHllbXAylQEK",
+            "cmVwbHllbXBzcxgBIAMoCzIXLmVtcGxveWVlZ3JlZXQucmVwbHllbXAy1wEK",
             "D0VtcGxveWVlR3JlZXRlchJBCgpnZXRlbXBsb3llEhouZW1wbG95ZWVncmVl",
             "dC5yZXNwb25zZWVtcBoXLmVtcGxveWVlZ3JlZXQucmVwbHllbXASPwoLZ2V0",
             "ZW1wbG95ZXMSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaGC5lbXBsb3llZWdy",
-            "ZWV0LnJlcGx5ZW1wc0IMqgIJdGVzdF9ncnBjYgZwcm90bzM="));
+            "ZWV0LnJlcGx5ZW1wcxJACg11cGRhdGVlbXBsb3llEhcuZW1wbG95ZWVncmVl",
+            "dC5yZXBseWVtcBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eUIMqgIJdGVzdF9n",
+            "cnBjYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

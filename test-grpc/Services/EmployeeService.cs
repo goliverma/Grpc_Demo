@@ -1,8 +1,11 @@
+using System.Runtime.Serialization;
+using System.Security.Cryptography;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using test_grpc.Data.Repository;
+using test_models.Tables;
 
 namespace test_grpc.Services
 {
@@ -34,6 +37,18 @@ namespace test_grpc.Services
                 emp.Replyempss.Add(new replyemp{EmployeeId=item.EmployeeId, FirstName=item.FirstName, LastName=item.LastName, Email=item.Email, Address=item.Address});
             }
             return await Task.FromResult(emp);
+        }
+        public override async Task<Empty> updateemploye(replyemp emp, ServerCallContext context)
+        {
+            var data = new Employee{
+                EmployeeId = emp.EmployeeId,
+                FirstName = emp.FirstName,
+                LastName = emp.LastName,
+                Email = emp.Email,
+                Address = emp.Address
+            };
+            await con.UpdateEmployee(data);
+            return null;
         }
     }
 }

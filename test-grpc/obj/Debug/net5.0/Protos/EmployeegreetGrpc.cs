@@ -61,6 +61,13 @@ namespace test_grpc {
         __Marshaller_google_protobuf_Empty,
         __Marshaller_employeegreet_replyemps);
 
+    static readonly grpc::Method<global::test_grpc.replyemp, global::Google.Protobuf.WellKnownTypes.Empty> __Method_updateemploye = new grpc::Method<global::test_grpc.replyemp, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "updateemploye",
+        __Marshaller_employeegreet_replyemp,
+        __Marshaller_google_protobuf_Empty);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -81,6 +88,11 @@ namespace test_grpc {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      public virtual global::System.Threading.Tasks.Task<global::Google.Protobuf.WellKnownTypes.Empty> updateemploye(global::test_grpc.replyemp request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -89,7 +101,8 @@ namespace test_grpc {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_getemploye, serviceImpl.getemploye)
-          .AddMethod(__Method_getemployes, serviceImpl.getemployes).Build();
+          .AddMethod(__Method_getemployes, serviceImpl.getemployes)
+          .AddMethod(__Method_updateemploye, serviceImpl.updateemploye).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -100,6 +113,7 @@ namespace test_grpc {
     {
       serviceBinder.AddMethod(__Method_getemploye, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::test_grpc.responseemp, global::test_grpc.replyemp>(serviceImpl.getemploye));
       serviceBinder.AddMethod(__Method_getemployes, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::test_grpc.replyemps>(serviceImpl.getemployes));
+      serviceBinder.AddMethod(__Method_updateemploye, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::test_grpc.replyemp, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.updateemploye));
     }
 
   }

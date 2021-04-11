@@ -8,6 +8,7 @@ package employeegreet;
 service EmployeeGreeter{
     rpc getemploye (responseemp) returns (replyemp);
     rpc getemployes (google.protobuf.Empty) returns (replyemps);
+    rpc updateemploye (replyemp) returns (google.protobuf.Empty);
 }
 
 message responseemp{

@@ -38,9 +38,10 @@ namespace test_grpc.Data.Repository
 
         public async Task UpdateEmployee(Employee changeemployee)
         {
-            await Task.Run(()=>{
+            await Task.Run(async ()=>{
                 var data1 = context.Employees.Attach(changeemployee);
                 data1.State = EntityState.Modified;
+                await context.SaveChangesAsync();
             });
         }
     }
